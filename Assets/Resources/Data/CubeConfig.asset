@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acea40bae024324ad0446ec9232d3eb, type: 3}
+  m_Name: CubeConfig
+  m_EditorClassIdentifier: Assembly-CSharp::CubeConfig
+  <NumberColorPairs>k__BackingField:
+  - number: 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+  - number: 2
+    color: {r: 1, g: 0.85244375, b: 0, a: 1}
+  - number: 3
+    color: {r: 0.22352943, g: 0.28235295, b: 0.78823537, a: 1}
+  - number: 4
+    color: {r: 0.44705886, g: 0.34117648, b: 0.7725491, a: 1}
+  <CountRows>k__BackingField: 3
+  <CountColumns>k__BackingField: 3
+  <SpacingBetweenCube>k__BackingField: 1.5
