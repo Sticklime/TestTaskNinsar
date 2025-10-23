@@ -50,6 +50,8 @@ namespace Code.GameLogic.Cubes
                     cube.Construct(i, j, _mapModel, _cubeConfig);
                     cube.Initialize();
 
+					cube.transform.SetParent(transform, false);
+
                     _cubes[i, j] = cube;
                 }
             }
